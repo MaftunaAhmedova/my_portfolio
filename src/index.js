@@ -23,8 +23,8 @@ root.render(
     {/* <Footer/> */}
       <Routes>
     
-        <Route path='/' element={<About />} />
-        <Route path='/blog' element={<Blog />} />
+        <Route path='/' element={<Blog />} />
+        <Route path='/about' element={<About />} />
         <Route path='/work' element={<Work />} />
 
       </Routes>
