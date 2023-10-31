@@ -11,7 +11,7 @@ function Work() {
                 <h1>M.</h1>
                 <div className="a-s">
 
-                    <a href="blog">blog</a>
+                    <a href="/">blog</a>
                     <a href="about">about</a>
                     <a href="work">work</a>
                 </div>
