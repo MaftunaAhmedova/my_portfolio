@@ -7,7 +7,7 @@ import img5 from "../../image/images (1).jpg"
 import img6 from "../../image/Без названия (4).png"
 import img7 from "../../image/Без названия (2).jpg"
 import img8 from "../../image/images (3).jpg"
-
+import img9 from "../../image/images (1).png"
 
 import "./about.css"
 function About() {
@@ -45,6 +45,14 @@ function About() {
 
                     </h3>
                 </div>
+                <div className="html">
+                    <img className='imgs' src={img9} alt="" />
+                    <h2 className='h2'>react </h2>
+                    <h3>   REact is front-end
+                    </h3>
+
+                </div>
+
                 <div className="html">
                     <img className='imgs' src={img4} alt="" />
                     <h2 className='h2'>git hub</h2>
