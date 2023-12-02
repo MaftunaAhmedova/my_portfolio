@@ -12,39 +12,42 @@ h1{
 .big_text {
     width: 100%;
     height: 400px;
-background: url(../../image/bannerimage.png) no-repeat center/cover;
+
 border-radius: 25px;
 
 }
 .bigt{
-color:purple;
-    margin-left: -550px;
-    padding-top: 100px;
+color:white;
+     padding-top: 100px;
 }
 
-
+.carts{
+    display: flex;
+}
 .card{
-    width: 90%;
+    width: 450px;
     height: 470px;
     background-color: rgba(255, 255, 255, 0.308);
     border-radius:30px;
-    display: flex;
-    gap: 100px;
-    font-size: 22px;
-margin: 5%;
+    font-size: 20px;
+    margin: 5%;
+    margin-left: 120px;
     color: rgb(61, 6, 61);
+    
 }
+
 .c_img > img{
-    width: 350px;
-    height: 420px;
-    object-fit: contain ;
+    width: 200px;
+    height: 200px;
+    /* object-fit: contain ; */
     border-radius: 30%;
-    margin-top: 25px;
-    margin-left: 100px;
+    margin-left: 20px;
+    margin-top:10px;
 }
 .c_p{
-    margin-top: 130px;
+    margin-top: 70px;
 }
+
 .c_img > img:hover{
     transform: scale(1.1);
     transition: 1000ms;
@@ -57,17 +60,81 @@ margin: 5%;
     margin-left: 100px;
     margin-top: 100px;
 }
+.big_text{
+    display: flex;
+    /* gap: 100px; */
+}
+.big_text  > .picture >.picture3{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+}
+.tools{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.carts{
+text-align: center;
 
+}
 
-/* @media  (max-width:10px) {
-    .a {
-        width: 500px;
-        height: 40px;
+@media screen and (max-width:575px) {
+    .Appp {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .Appp>.a {
+        width: 575px;
+        height: 50px;
         background-color: purple;
+        border-radius: 0px 0px 20px 20px;
     }
-    .a-s{
-        color: black;
-        font-size: 5px;
-        gap: 5px;
+
+    .Appp>.a>.a-s>.navbar {
+        color: WHITE;
+        gap: 180px;
+        margin-left: -260px;
     }
-} */
+
+    .a>h1 {
+        margin-left: 80px;
+        margin-top: 6px;
+
+    }
+
+    .big_text {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    .big_text>.bigt>h3 {
+        font-size: 25px;
+margin-left: -15px;
+    }
+
+    .big_text>.picture {
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: -60px;
+    }
+.tools{
+margin-top: 250px;
+}
+.carts > .card{
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+}
+.carts > .card > .c-img > img{
+    width: 10px;
+    height: 10px;
+}
+.carts{
+    flex-wrap: wrap;
+}
+}

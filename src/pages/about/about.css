@@ -28,29 +28,8 @@ img {
     margin-top: 5px;
 }
 
-.a {
-    width: 100%;
-    height: 50px;
-    text-decoration: none;
-    display: flex;
-    /* margin-left: 100px; */
-    gap: 50px;
-    border: 1px solid white;
-    border-radius: 0px 0px 20px 20px;
-}
 
-.a>h1 {
-    margin-left: 150px;
-}
 
-.a a {
-
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    margin-left: 25 0px;
-    margin-top: 5px;
-}
 
 .big_text {
     color: white;
@@ -124,15 +103,11 @@ h3 {
 
 }
 
-.a-s {
-    display: flex;
-    gap: 120px;
-    margin-left: 500px;
-}
+
 
 .footer {
     width: 100%;
-    height: 250px;
+    height: 350px;
     border: 1px solid white;
     font-size: 20px;
     color: white;
@@ -140,4 +115,51 @@ h3 {
     padding-top: 50px;
     border-radius: 50px 50px 0 0;
     display: flex;
+}
+
+.banner-text {
+width: 300px;
+height: 200px;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+.banner {
+    display: flex;
+    gap: 200px;
+    padding-top: 70px;
+}
+
+.banner-img>img {
+    border-radius: 50%;
+}
+
+@media screen and (max-width:575px) {
+    .App {
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
+    .banner {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    .banner>.banner-text>h1 {
+        font-size: 25px;
+        margin-left: -80px;
+        margin-top: -50px;
+    }
+
+    .banner>.banner-img {
+        margin-left: 180px;
+    }
+
+    .big_texts .html {
+        margin-left: -10px;
+    }
 }

@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Blog from './pages/blog/Blog';
 import About from './pages/about/About';
 import Work from './pages/work/Work'
-// import Navbar from './components/Navbar/Navbar';
+import Navbar from './pages/navbar/Navbar'
 // import Footer from './components/footer/Footer';
 
 
@@ -19,7 +19,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Main/>
-    {/* <Navbar/> */}
+    <Navbar/>
     {/* <Footer/> */}
       <Routes>
     
